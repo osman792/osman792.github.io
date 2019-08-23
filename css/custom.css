@@ -1,0 +1,613 @@
+/* Start Global Rules */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+
+body {
+    font-family: 'Droid sans', sans-serif
+}
+
+
+/* start custom framework */
+
+.container{
+    
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.text-center{
+    
+    text-align: center
+}
+
+.float-left {
+    
+    float: left
+}
+
+.float-right {
+    
+    float: right
+}
+
+.text-center {
+    
+    text-align: center
+}
+
+.clearfix {
+    
+    clear: both
+}
+
+.responsive-img {
+    
+    width: 100%
+}
+
+.unstyled {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.overlay {
+    
+}
+
+.h1 {
+    font-size: 2em
+}
+
+.upper-case {
+    text-transform: uppercase
+}
+
+/* end of frmework */
+
+body {
+    overflow: hidden
+}
+
+
+.header {
+  background: url('../img/bg-showcase-2.jpg') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  max-height: 1000px;
+  position: relative
+}
+
+.header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  background-color:  rgba(4, 4, 4, 0.8)
+}
+
+.header .container h2 {
+    
+    color: #fdfdfd;
+    margin: 0;
+    padding: 5px
+    
+}
+
+.header .container h2 span {
+    padding-left: 10px;
+    color: #f00
+}
+
+.header .container li {
+    
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.header hr {
+    height: 1px;
+    font-size: 1px;
+    border: none;
+    background-color: #ff000042;
+}
+
+.header .container .interface {
+    
+    margin-top: 170px;
+    font-family: droid;
+}
+
+.header .container .interface span {
+    padding-left: 10px
+        
+}
+
+.header .container i {
+    
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #aaa;
+    transition: all 1s ease-in-out;
+    cursor: pointer
+}
+
+
+.header .container .interface p {
+    
+    font-size: 16px;
+    color: #e0e0e0
+}
+
+/* start features */
+
+.features {
+  padding: 30px 0;
+  overflow: hidden
+}
+
+.features .h1 {
+  font-size: 50px;
+  color: #555;
+  margin: 15px
+}
+
+.features .feat {
+  color: #555;
+  padding: 0 20px 0 0;
+  margin-bottom: 30px
+}
+
+.features .feat i {
+    color: #ea6666
+}
+
+.features .feat h2 {
+  margin: 10px 0 8px
+}
+
+.features .feat p {
+  line-height: 1.6;
+  margin: 0
+}
+
+/* start about us */
+
+.about-us {
+    
+    background-color: #ececec;
+    padding: 30px 0
+}
+
+.about-us h2 {
+    
+    font-size: 50px;
+    color: #717171;
+    margin: 5px;
+    
+}
+
+.about-us p {
+    
+    color: #848484;
+    line-height: 1.9;
+    font-size: 16px;
+    
+}
+
+/* logo section */
+
+.logos {
+    padding-top: 30px;
+    padding-bottom: 80px
+}
+
+.logos .unstyled .logo {
+    
+    float: left;
+    width: 16.6666%;
+    padding-bottom: 30px
+}
+
+.logos .unstyled .logo img {
+    
+    opacity: .5
+}
+
+.logos .unstyled .logo img:hover {
+    
+    opacity: 1
+}
+
+/* start contact form */
+
+.contact {
+    background: url(../img/header.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: relative
+}
+
+.contact .overlay {
+    color: #eee;
+    
+    
+}
+
+.contact form {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.contact h2 {
+    
+    padding-top: 50px;
+    margin: 0;
+    
+    
+}
+.contact span {
+    color: #f00;
+    padding-left: 5px
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"] {
+ 
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+}
+
+.contact form input[type="text"] {
+    float: left
+}
+
+.contact form input[type="email"] {
+    float: right
+}
+
+.contact form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact form .info {
+    overflow: hidden;
+    margin-top: 10px
+    
+}
+
+.contact form .info .send {
+    
+    padding: 10px;
+    width: 200px;
+    background-color: #f00;
+    border: none;
+    color: #fff;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    font-size: 14px
+}
+
+.contact form .info .social {
+    
+    float: right
+}
+
+
+/* start feed */
+
+.feeds {
+    
+    overflow: hidden
+}
+
+.feeds .container h2 {
+    
+    font-size: 50px;
+    margin: 30px 0;
+    color: #555;
+}
+
+.feeds .container .feed {
+    
+    background-color: #EEE;
+    padding: 20px;
+    margin: 0 0 25px;
+    border: 1px solid #DDD;
+    border-radius: 10px
+}
+
+
+.feeds .container .feed .round {
+    
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    width: 120px;
+    margin-right: 20px
+        
+}
+
+.feeds .container .feed .round img {
+    border-radius: 10px
+}
+
+.feeds .container .feed h3 {
+    
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.feeds .container .feed p {
+    
+    width: calc(100% - 140px);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.7
+}
+
+.feeds .container .main {
+    
+    width: 80%;
+    margin-left: 10%;
+}
+
+.feeds .container .others {
+    
+    width: 49%;
+    margin-left: 1%
+}
+
+
+.footer {
+    
+    background-color: #333;
+    color: #EEE;
+        
+}
+
+.footer .copyright,
+.footer .design {
+    
+  padding: 20px;
+  text-align: center
+}
+
+.loading {
+    
+    background:#a94442;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:99999
+}
+
+.sk-folding-cube {
+  margin: 20px auto;
+  width: 40px;
+  top: 50%;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}
+
+
+/* start media query */
+
+@media (max-width: 767px) {
+    .features .feat {
+    text-align: center
+  }
+    .our-works .image {
+    width: 100%
+  }
+    .logos .unstyled .logo {
+        width: 50%
+    }
+    .contact form {
+        width: 100%
+    }
+    .contact form input[type="text"],
+    .contact form input[type="email"] {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .feeds .container .others,
+    .feeds .container .main {
+        width: 100%;
+        margin-left: 0
+    }
+    .feeds .container .feed p {
+        font-size: 14px
+    }
+    
+  .footer .copyright,
+  .footer .design {
+    width: 100%
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .container {
+    width: 750px
+  }
+    .features .feat {
+    width: 100%
+  }
+    .our-works .image {
+    width: 50%
+  }
+    .contact form {
+        width: 100%
+    }
+    .contact form input[type="text"],
+    .contact form input[type="email"] {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .feeds .container .others,
+    .feeds .container .main {
+        width: 100%;
+        margin-left: 0
+    }
+    .feeds .container .feed p {
+        font-size: 14px
+    }
+    .footer .copyright,
+    .footer .design {
+        width: 50%
+  }
+    .logos .unstyled .logo {
+        width: 33.3333%
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .container {
+    width: 970px
+  }
+    .features .feat {
+    width: 33.3333%;
+  }
+    .our-works .image {
+        width: 25%
+  }
+    .footer .copyright,
+    .footer .design {
+        width: 50%
+  }
+    
+}
+
+@media (min-width: 1200px) {
+    
+    .container {
+    width: 1170px
+  }
+    .features .feat {
+    width: 33.3333%;
+  }
+    .our-works .image {
+        width: 25%
+  }
+    .footer .copyright,
+    .footer .design {
+        width: 50%
+  }
+}
