@@ -10,10 +10,7 @@ $(function () {
     });
 
 });
-
-$(function () {
-    
-    "use strict";
-    
-    $(".loading").fadeOut(2000);
-});
+window.onload = function () {
+('use strict');
+$(".loading").fadeOut("slow");
+}
